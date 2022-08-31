@@ -11,6 +11,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://hiex.netlify.app/about/feedback/</loc>
+         <lastmod>2022-08-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://hiex.netlify.app/introduction/tutorial/</loc>
          <lastmod>2022-08-31</lastmod>
          <changefreq>daily</changefreq>

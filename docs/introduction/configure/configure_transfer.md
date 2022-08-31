@@ -56,94 +56,86 @@ END_TASK();
 
 下面将展示把原代码和迁移后的代码
 
-#### 示例一
+=== "示例一"
 
-以下是使用 EasyX 时的代码：
-
-```cpp
-#include <easyx.h>
-
-int main()
-{
-    initgraph();
+    ```cpp title="使用 EasyX 时的代码"
+    #include <easyx.h>
     
-    while(1)
+    int main()
     {
+        initgraph();
+        
+        while(1)
+        {
+            BeginBatchDraw();
+            
+            circle(320, 240, 100);
+            
+            EndBatchDraw();
+        }
+        
+        return 0;
+    }
+    ```
+    
+    ```cpp title="迁移成 HiEasyX 后的代码"
+    #include "HiEasyX.h"
+    
+    int main()
+    {
+        initgraph();
+        
+        while(1)
+        {
+            BEGIN_TASK();
+            
+            circle(320, 240, 100);
+            
+            END_TASK();
+            FLUSH_DRAW();
+        }
+        
+        return 0;
+    }
+    ```
+
+=== "示例二"
+
+    ```cpp title="使用 EasyX 时的代码"
+    #include <easyx.h>
+    
+    int main()
+    {
+        initgraph();
+        
         BeginBatchDraw();
-        
-        circle(320, 240, 100);
-        
+        for(int i = 1; i <= 100; i++)
+        {
+            circle(i, 240, 100);
+            FlushBatchDraw();
+        }
         EndBatchDraw();
-    }
-    
-    return 0;
-}
-```
-
-以下是迁移成 HiEasyX 后的代码：
-
-```cpp
-#include "HiEasyX.h"
-
-int main()
-{
-    initgraph();
-    
-    while(1)
-    {
-        BEGIN_TASK();
         
-        circle(320, 240, 100);
+        return 0;
+    }
+    ```
+    
+    ```cpp title="迁移成 HiEasyX 后的代码"
+    #include "HiEasyX.h"
+    
+    int main()
+    {
+        initgraph();
         
-        END_TASK();
-        FLUSH_DRAW();
+        for(int i = 1; i <= 100; i++)
+        {
+            circle(i, 240, 100);
+            FLUSH_DRAW();
+        }
+        
+        return 0;
     }
-    
-    return 0;
-}
-```
-
-#### 示例二
-
-以下是使用 EasyX 时的代码：
-
-```cpp
-#include <easyx.h>
-
-int main()
-{
-    initgraph();
-    
-    BeginBatchDraw();
-    for(int i = 1; i <= 100; i++)
-    {
-        circle(i, 240, 100);
-        FlushBatchDraw();
-    }
-    EndBatchDraw();
-    
-    return 0;
-}
-```
-
-以下是迁移成 HiEasyX 后的代码：
-
-```cpp
-#include "HiEasyX.h"
-
-int main()
-{
-    initgraph();
-    
-    for(int i = 1; i <= 100; i++)
-    {
-        circle(i, 240, 100);
-        FLUSH_DRAW();
-    }
-    
-    return 0;
-}
-```
+    ```
     
 <script src="https://giscus.app/client.js"
     data-repo="Alan-CRL/HiEasyX-Docs"

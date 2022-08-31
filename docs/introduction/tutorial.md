@@ -1,6 +1,6 @@
 # HiEasyX 快速攻略
 
-在这之前请你熟悉 [EasyX](https://docs.easyx.cn/zh-cn/intro) 的操作以及代码编写，因为 HiEasyX 是一个扩展库
+在这之前请您熟悉 [EasyX](https://docs.easyx.cn/zh-cn/intro) 的操作以及代码编写，因为 HiEasyX 是一个扩展库
 
 ## 准备 HiEasyX
 
@@ -319,7 +319,7 @@ HiEasyX 默认为程序加载 HiEasyX 图标。在 EasyX 中，只要在 Visual 
 
 ```cpp
 #include "resource.h"
-IDI_ICON1	ICON	"icon.ico" /* 修改为你的图标文件路径 */
+IDI_ICON1	ICON	"icon.ico" /* 修改为您的图标文件路径 */
 ```
 
 然后可以使用如下示例代码测试：
@@ -683,7 +683,7 @@ HiEasyX 还有一些实用但零碎的功能，在此恐不能详述。例如：
 * `HiGif.h` 动图相关
 
 如您感兴趣，可以自行查阅头文件和文档。
-    
+
 <script src="https://giscus.app/client.js"
     data-repo="Alan-CRL/HiEasyX-Docs"
     data-repo-id="R_kgDOH6UtUA"
