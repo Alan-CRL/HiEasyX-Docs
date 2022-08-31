@@ -2,28 +2,19 @@ site_name: HiEasyX文档
 site_url: https://hiex.netlify.app/
 nav:
     - '主页': 'index.md'
+    - '入门': 
+      - '快速攻略': 'introduction\tutorial.md'
+      - '配置 HiEasyX': 
+        - '新项目配置': 'introduction\configure\configure.md'
+        - '迁移项目配置': 'introduction\configure\configure_transfer.md'
     - '关于': 
       - '关于网站': 'about\about-website.md'
 theme:
   name: "material"
   palette:
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: blue
-      accent: blue
-      toggle:
-        icon: material/brightness-7
-        name: 切换至深色主题
-
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: cyan
-      accent: cyan
-      toggle:
-        icon: material/brightness-4
-        name: 切换至浅色主题
+    scheme: default
+    primary: blue
+    accent: blue
   features:
   - navigation.tabs
   language: zh
@@ -72,3 +63,4 @@ markdown_extensions:
   - pymdownx.tilde
 repo_url: https://github.com/Alan-CRL/HiEasyX-Docs
 repo_name: Alan-CRL/HiEasyX-Docs
+edit_uri: blob/main/docs/

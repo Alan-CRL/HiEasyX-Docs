@@ -10,4 +10,19 @@
          <lastmod>2022-08-31</lastmod>
          <changefreq>daily</changefreq>
     </url>
+    <url>
+         <loc>https://hiex.netlify.app/introduction/tutorial/</loc>
+         <lastmod>2022-08-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/introduction/configure/configure/</loc>
+         <lastmod>2022-08-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/introduction/configure/configure_transfer/</loc>
+         <lastmod>2022-08-31</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>
