@@ -1,5 +1,7 @@
 # HiEasyX 快速攻略
 
+在这之前请你熟悉 [EasyX](https://docs.easyx.cn/zh-cn/intro) 的操作以及代码编写，因为 HiEasyX 是一个扩展库
+
 ## 准备 HiEasyX
 
 ### 配置库
