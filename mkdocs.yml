@@ -12,6 +12,7 @@ nav:
       - '提供反馈或建议': 'about\feedback.md'
 theme:
   name: "material"
+  custom_dir: overrides
   palette:
     scheme: default
     primary: blue
@@ -28,6 +29,9 @@ theme:
     repo: fontawesome/brands/github
   favicon: favicon.png
 extra:
+  analytics:
+    provider: custom
+    property: foobar
   social:
     - icon: fontawesome/brands/github 
       link: https://github.com/Alan-CRL/HiEasyX-docs
