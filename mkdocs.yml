@@ -1,0 +1,74 @@
+site_name: HiEasyX文档
+site_url: https://hiex.netlify.app/
+nav:
+    - '主页': 'index.md'
+    - '关于': 
+      - '关于网站': 'about\about-website.md'
+theme:
+  name: "material"
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: 切换至深色主题
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: cyan
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: 切换至浅色主题
+  features:
+  - navigation.tabs
+  language: zh
+  logo: favicon.png
+  icon: 
+    repo: fontawesome/brands/github
+  favicon: favicon.png
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/Alan-CRL/HiEasyX-docs
+      name: HiEasyX文档 github 项目
+copyright: HiEasyX文档 是无版权的开源项目
+markdown_extensions:
+
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+repo_url: https://github.com/Alan-CRL/HiEasyX-Docs
+repo_name: Alan-CRL/HiEasyX-Docs
