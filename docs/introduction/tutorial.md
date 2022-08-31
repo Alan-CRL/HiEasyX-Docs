@@ -437,12 +437,12 @@ canvas.BindToImage(_Your_Image_Pointer_);
 它们都很易于使用，您可以看下面的一个例子：
 
 <div align=center>
-<img src="/screenshot/balls1.png"><br>
+<img src="../screenshot/balls1.png"><br>
 <b>透明通道 - 小球示例（1）</b>
 </div><br>
 
 <div align=center>
-<img src="/screenshot/balls2.png"><br>
+<img src="../screenshot/balls2.png"><br>
 <b>透明通道 - 小球示例（2）</b>
 </div><br>
 
@@ -486,7 +486,7 @@ int main()
 ```
 
 <div align=center>
-<img src="/screenshot/fast_btn.png"><br>
+<img src="../screenshot/fast_btn.png"><br>
 <b>创建按钮</b>
 </div><br>
 
@@ -516,7 +516,7 @@ int main()
 ```
 
 <div align=center>
-<img src="/screenshot/fast_btn_2.png"><br>
+<img src="../screenshot/fast_btn_2.png"><br>
 <b>添加按钮图片</b>
 </div><br>
 
@@ -600,7 +600,7 @@ int main()
 ```
 
 <div align=center>
-<img src="/screenshot/fast_edit.png"><br>
+<img src="../screenshot/fast_edit.png"><br>
 <b>创建编辑框</b>
 </div><br>
 
@@ -636,7 +636,7 @@ int main()
 ```
 
 <div align=center>
-<img src="./screenshot/fast_edit_2.png"><br>
+<img src="../screenshot/fast_edit_2.png"><br>
 <b>获取编辑框文本</b>
 </div><br>
 
@@ -648,7 +648,7 @@ int main()
 下面这个示例用到的控件比较全面，可以帮您更深入地了解 HiSysGUI：
 
 <div align=center>
-<img src="/screenshot/overview.png"><br>
+<img src="../screenshot/overview.png"><br>
 <b>控件示例</b>
 </div><br>
 
