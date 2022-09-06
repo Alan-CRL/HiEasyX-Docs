@@ -2,32 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://hiex.netlify.app/</loc>
-         <lastmod>2022-08-31</lastmod>
+         <lastmod>2022-09-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/HiWindow/</loc>
+         <lastmod>2022-09-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/HiWindow/window-creation/WindowCreate/</loc>
+         <lastmod>2022-09-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/HiWindow/window-creation/initgraph/</loc>
+         <lastmod>2022-09-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/HiWindow/window-creation/initgraph_win32/</loc>
+         <lastmod>2022-09-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/about/about-website/</loc>
-         <lastmod>2022-08-31</lastmod>
+         <lastmod>2022-09-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/about/contribution/</loc>
+         <lastmod>2022-09-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/about/feedback/</loc>
-         <lastmod>2022-08-31</lastmod>
+         <lastmod>2022-09-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/introduction/tutorial/</loc>
-         <lastmod>2022-08-31</lastmod>
+         <lastmod>2022-09-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://hiex.netlify.app/introduction/configure/configure/</loc>
-         <lastmod>2022-08-31</lastmod>
+         <loc>https://hiex.netlify.app/introduction/configure/</loc>
+         <lastmod>2022-09-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://hiex.netlify.app/introduction/configure/configure_transfer/</loc>
-         <lastmod>2022-08-31</lastmod>
+         <loc>https://hiex.netlify.app/introduction/configure/configure-new/</loc>
+         <lastmod>2022-09-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/introduction/configure/configure-transfer/</loc>
+         <lastmod>2022-09-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

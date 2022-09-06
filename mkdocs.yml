@@ -5,10 +5,18 @@ nav:
     - '入门': 
       - '快速攻略': 'introduction\tutorial.md'
       - '配置 HiEasyX': 
-        - '新项目配置': 'introduction\configure\configure.md'
-        - '迁移项目配置': 'introduction\configure\configure_transfer.md'
+        - 'introduction\configure\index.md'
+        - '新项目配置': 'introduction\configure\configure-new.md'
+        - '迁移项目配置': 'introduction\configure\configure-transfer.md'
+    - 'HiWindow：窗口支持': 
+      - 'HiWindow\index.md'
+      - '窗口创建函数': 
+        - 'initgraph': 'HiWindow\window-creation\initgraph.md'
+        - 'initgraph_win32': 'HiWindow\window-creation\initgraph_win32.md'
+        - 'Window::Create': 'HiWindow\window-creation\WindowCreate.md'
     - '关于': 
       - '关于网站': 'about\about-website.md'
+      - '贡献事项': 'about\contribution.md'
       - '提供反馈或建议': 'about\feedback.md'
 theme:
   name: "material"
@@ -80,6 +88,9 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 repo_url: https://github.com/Alan-CRL/HiEasyX-Docs
 repo_name: Alan-CRL/HiEasyX-Docs
 edit_uri: blob/main/docs/
