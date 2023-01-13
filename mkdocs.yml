@@ -16,8 +16,19 @@ nav:
       - '设备': 'concept\equipment.md'
     - '函数说明':
       - 'function\index.md'
-      - '绘图设备相关函数':
-        - 'function\index.md'
+      - '窗口设置相关函数':
+        - 'initgraph': 'function\window\initgraph.md'
+        - 'initgraph_win32': 'function\window\initgraph_win32.md'
+        - 'closegraph': 'function\window\closegraph.md'
+        - 'closegraph_win32': 'function\window\closegraph_win32.md'
+      - '绘图设置相关函数':
+        - 'cleardevice': 'function\drawing\cleardevice.md'
+        - 'getaspectratio': 'function\drawing\getaspectratio.md'
+        - 'setaspectratio': 'function\drawing\setaspectratio.md'
+        - 'graphdefaults': 'function\drawing\graphdefaults.md'
+        - 'setorigin': 'function\drawing\setorigin.md'
+        - 'setcliprgn': 'function\drawing\setcliprgn.md'
+        - 'clearcliprgn': 'function\drawing\clearcliprgn.md'
     - '关于': 
       - '关于网站': 'about\about-website.md'
       - '贡献事项': 'about\contribution.md'
@@ -46,10 +57,11 @@ theme:
 
   features:
     - navigation.tabs
-    - navigation.instant
     - navigation.tracking
     - navigation.indexes
     - navigation.top
+    - search.suggest
+    - search.highlight
   language: zh
   logo: favicon.png
   icon: 
@@ -65,7 +77,8 @@ extra:
       name: HiEasyX文档 github 项目
 copyright: HiEasyX文档 是无版权的开源项目
 plugins:
-  - offline:
+  - search
+  - offline
 markdown_extensions:
 
   # Python Markdown

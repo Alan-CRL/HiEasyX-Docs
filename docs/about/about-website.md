@@ -1,5 +1,7 @@
 ---
 comments: true
+search:
+  exclude: true
 ---
 
 # 关于 HiEasyX 在线文档网站
@@ -15,7 +17,7 @@ comments: true
 + [zouhuidong](https://github.com/zouhuidong)（管理员）
 
 ## 适用 HiEasyX 版本
-Ver 2.x、Ver 3.0
+Ver 0.2.x、Ver 0.3.0
 
 ## 网站版本
-Ver 230113.01（构建时间 UTC/GMT 01/13/2023 01:06:27）
+Ver 230113.02（构建时间 UTC/GMT 01/13/2023 01:06:27）

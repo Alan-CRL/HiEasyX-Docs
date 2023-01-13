@@ -1,5 +1,7 @@
 ---
 comments: true
+search:
+  exclude: true
 ---
 
 # 欢迎查看 HiEasyX 在线文档
@@ -10,13 +12,13 @@ comments: true
     [新手快速攻略](introduction\tutorial.md){ .md-button .md-button--primary }
 
 !!! tip "公告"
-    您目前看到的是正在开发的全新官方帮助文档，在本网站更多的是教您如何高效使用 HiEasyX 。
-
-    同时我们也在此帮助文档中集成了 EasyX 的基础用法，让您可以跳过 EasyX 的学习，直接开始学习 HiEasyX。
+    - 您目前看到的是正在开发的全新官方帮助文档，在本网站更多的是教您如何高效使用 HiEasyX 。同时我们也在此帮助文档中集成了 EasyX 的基础用法，让您可以跳过 EasyX 的学习，直接开始学习 HiEasyX。
     
-    如果您想查看库函数文档，请转到由 doxygen 构建的 [库函数目录文档](https://zouhuidong.github.io/HiEasyX)。
+    - 如果您想查看库函数文档，请转到由 doxygen 构建的 [库函数目录文档](https://zouhuidong.github.io/HiEasyX)。
 
-    如果您需要离线使用或者需要历史版本，请前往 [离线使用及历史版本](about\history.md)。
+    - 如果您需要离线使用或者需要历史版本，请前往 [离线使用及历史版本](about\history.md)。
+
+    - 本站的搜索功能只限于搜索函数名称，其他文档不会显示。
 
 !!! info "关于"
     如果想查看此的编写者和其他信息，请转到[关于网站](about\about-website.md)

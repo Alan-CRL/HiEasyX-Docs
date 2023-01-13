@@ -1,5 +1,7 @@
 ---
 comments: true
+search:
+  exclude: true
 ---
 
 # 迁移项目并配置 HiEasyX 库

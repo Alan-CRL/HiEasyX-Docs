@@ -56,6 +56,61 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://hiex.netlify.app/function/drawing/clearcliprgn.html</loc>
+         <lastmod>2023-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/drawing/cleardevice.html</loc>
+         <lastmod>2023-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/drawing/getaspectratio.html</loc>
+         <lastmod>2023-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/drawing/graphdefaults.html</loc>
+         <lastmod>2023-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/drawing/setaspectratio.html</loc>
+         <lastmod>2023-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/drawing/setcliprgn.html</loc>
+         <lastmod>2023-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/drawing/setorigin.html</loc>
+         <lastmod>2023-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/window/closegraph.html</loc>
+         <lastmod>2023-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/window/closegraph_win32.html</loc>
+         <lastmod>2023-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/window/initgraph.html</loc>
+         <lastmod>2023-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/window/initgraph_win32.html</loc>
+         <lastmod>2023-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://hiex.netlify.app/introduction/tutorial.html</loc>
          <lastmod>2023-01-13</lastmod>
          <changefreq>daily</changefreq>

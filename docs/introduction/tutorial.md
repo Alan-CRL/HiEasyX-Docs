@@ -1,5 +1,7 @@
 ---
 comments: true
+search:
+  exclude: true
 ---
 
 # HiEasyX 快速攻略

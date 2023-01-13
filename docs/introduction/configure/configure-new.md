@@ -1,5 +1,7 @@
 ---
 comments: true
+search:
+  exclude: true
 ---
 
 # 新项目配置 HiEasyX 库
