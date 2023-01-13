@@ -1,0 +1,117 @@
+site_name: HiEasyX文档
+site_url: https://hiex.netlify.app/
+nav:
+    - '主页': 'index.md'
+    - '绘图库简介': 'intro.md'
+    - '快速入门': 
+      - '快速攻略': 'introduction\tutorial.md'
+      - '配置 HiEasyX': 
+        - 'introduction\configure\index.md'
+        - '新项目配置': 'introduction\configure\configure-new.md'
+        - '迁移项目配置': 'introduction\configure\configure-transfer.md'
+    - '基本概念':
+      - 'concept\index.md'
+      - '颜色': 'concept\color.md'
+      - '坐标': 'concept\coordinate.md'
+      - '设备': 'concept\equipment.md'
+    - '函数说明':
+      - 'function\index.md'
+      - '绘图设备相关函数':
+        - 'function\index.md'
+    - '关于': 
+      - '关于网站': 'about\about-website.md'
+      - '贡献事项': 'about\contribution.md'
+      - '离线使用及历史版本': 'about\history.md'
+      - '提供反馈或建议': 'about\feedback.md'
+theme:
+  name: "material"
+  custom_dir: overrides
+  palette:
+
+    # Palette toggle for light mode
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.top
+  language: zh
+  logo: favicon.png
+  icon: 
+    repo: fontawesome/brands/github
+  favicon: favicon.png
+extra:
+  analytics:
+    provider: custom
+    property: foobar
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/Alan-CRL/HiEasyX-docs
+      name: HiEasyX文档 github 项目
+copyright: HiEasyX文档 是无版权的开源项目
+plugins:
+  - offline:
+markdown_extensions:
+
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+
+  # Python Markdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+repo_url: https://github.com/Alan-CRL/HiEasyX-Docs
+repo_name: Alan-CRL/HiEasyX-Docs
+edit_uri: blob/main/docs/
