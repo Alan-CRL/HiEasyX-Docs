@@ -19,7 +19,7 @@ search:
     
     如果您的项目本来就是 `unicode` 字符集，那真是太好了！您可以进行下一步了。
     
-3、 复制仓库项目中的 `./HiEasyX/HiEasyX.h` 文件 和 `./HiEasyX/HiEasyX/` 整个文件夹到您的项目目录下
+3、 下载 [文件](HiEasyX.zip) 并解压，将 `./HiEasyX/HiEasyX.h` 文件 和 `./HiEasyX/HiEasyX/` 整个文件夹到您的项目目录下
 
 4、 将刚才复制的文件和文件夹加入到您的 Visual Studio 项目中（拖入 Visual Studio 的项目资源管理器即可，或可以手动添加）
 

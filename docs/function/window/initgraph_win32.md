@@ -2,7 +2,7 @@
 comments: true
 ---
 
-# initgraph
+# initgraph_win32
 函数 · 位于 HiWindow.cpp 中第 1630 行
 
 ### 函数模型

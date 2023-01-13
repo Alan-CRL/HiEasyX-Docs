@@ -4,9 +4,11 @@ search:
   exclude: true
 ---
 
-# HiEasyX 快速攻略
+# HiEasyX 快速入门
 
-在这之前请您熟悉 [EasyX](https://docs.easyx.cn/zh-cn/intro) 的操作以及代码编写，因为 HiEasyX 是一个基于 EasyX 的全面扩展库
+在这之前请您熟悉 [EasyX](https://docs.easyx.cn/zh-cn/intro) 的操作以及代码编写，因为 HiEasyX 是一个基于 EasyX 的全面扩展库。
+
+如果具备一定 EasyX 基础，可以直接入手 [快速基础](basic/index.md)，快速掌握 HiEasyX 基础模块。
 
 ## 准备 HiEasyX
 
@@ -37,15 +39,6 @@ HiEasyX 在代码中使用 `HiEasyX` 命名空间，缩写 `hiex`，兼容旧版
 
 !!! note "在 Ver 0.2.1 及更早发布的版本中"
     HiEasyX 默认在 Release 模式下启用程序开场动画，如需关闭，请在 HiDef.h 中设置相关宏。
-
-### 旧版库函数文档
-
-当前文档并未开发完善，请先参考旧版文档
-
-在此浏览[旧版在线文档](https://zouhuidong.github.io/HiEasyX)
-
-!!! bug ""
-    由于旧版在线文档中的有些页面会出现 404，所以建议下载仓库后在本地浏览文档。文档网页位于 `/doc/index.html`
 
 ## 窗口篇：HiWindow 窗口模块
 
@@ -98,7 +91,7 @@ hiex::Window wnd;
 wnd.Create(640, 480);
 ```
 
-创建窗口时还有一些可选参数，例如窗口名称、窗口属性、过程函数、父窗口句柄，等等。详情请查阅当前文档或头文件。
+创建窗口时还有一些可选参数，例如窗口名称、窗口属性、过程函数、父窗口句柄，等等。详情请转到进阶教程 [快速基础/自定义窗口样式](basic/wnd_style.md) 。
 
 如果想要创建多个窗口，再次调用创建窗口函数即可。
 
@@ -120,11 +113,6 @@ EasyX 的用户可能早已习惯不判断绘图窗口是否还存在，因为�
 如果想检测某一窗口是否存在，可以使用 `hiex::isAliveWindow()` 或 `hiex::Window::isAlive()`。
 
 如果想设置所有窗口关闭时，程序自动退出，可以调用一次 `AutoExit()`，即可。
-
-??? bug "正在调查的漏洞"
-    在程序中使用 多线程 后，在 `AutoExit()` 中可能出现 `exit` 失败的问题，导致程序无法退出。
-    
-    如果您出现了此问题，请将 `AutoExit()` 中的 `exit(0);` 替换成 `abort();`（强制退出程序）即可。
 
 ### IMAGE* 的空指针
 
@@ -189,15 +177,20 @@ if (hiex::SetWorkingWindow(_YourWindowHandle_))
 
     此外，在两个窗口任务之间插入适当的间隙也很有必要，例如在无限循环的绘制中插入 `Sleep` 语句，这样同时也能降低 CPU 占用率。
 
-### 绘图缓冲
+### 双缓冲机制
 
-HiEasyX 强制双缓冲，所以无需再调用 EasyX 的 `BeginBatchDraw()` 系列函数
+HiEasyX 强制使用双缓冲，所以无需再调用 EasyX 的 `BeginBatchDraw()` 系列函数。
 
-EasyX 原生的 `FlushBatchDraw()` 和 `EndBatchDraw()` 函数都被宏定义为输出绘图缓冲（`hiex::EnforceRedraw()`）
+EasyX 原生的 `FlushBatchDraw()` 和 `EndBatchDraw()` 函数都被宏定义为刷新窗口函数（ `hiex::RedrawWindow()` ）
 
-由于绘图代码在窗口任务中执行，故每次窗口任务结束时将默认输出绘图缓冲。
+HiEasyX 刷新双缓冲的机制是：每次窗口任务结束时，也就是调用 `hiex::EndTask();` 或者 `END_TASK();` 时，都会标记需要刷新双缓冲，然后在窗口接受到重绘消息时，再刷新双缓冲。
 
-但是，如果不是在窗口过程函数的 `WM_PAINT` 消息中绘图，就还需要在结束窗口任务后调用 `FLUSH_DRAW()` 宏发送窗口重绘消息（它也等同于 `hiex::EnforceRedraw()`），这样才能将绘制内容刷新到屏幕上。
+!!! abstract "备注"
+    调用 `hiex::EndTask();` 或者 `END_TASK();` 时，也可以传入参数指定是否标记需要刷新双缓冲。
+
+这种刷新双缓冲的机制叫做自动刷新双缓冲，因为每次窗口任务结束都自动标记了需要刷新双缓冲，不需要手动去刷新。当然，也可以通过 `hiex::EnableAutoFlush` 函数关闭自动刷新双缓冲。
+
+如果关闭了自动刷新双缓冲，那么就需要你调用 `hiex::FlushDrawing` 函数来手动刷新双缓冲（这个函数必须在窗口任务内调用），这个函数也可以只刷新局部的双缓冲。
 
 !!! note "注意"
 

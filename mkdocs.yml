@@ -2,10 +2,27 @@ site_name: HiEasyX文档
 site_url: https://hiex.netlify.app/
 nav:
     - '主页': 'index.md'
-    - '绘图库简介': 'intro.md'
-    - '快速入门': 
-      - '快速攻略': 'introduction\tutorial.md'
-      - '配置 HiEasyX': 
+    - '快速攻略': 
+      - '快速入门': 'introduction\tutorial.md'
+      - '快速基础': 
+        - 'introduction\basic\index.md'
+        - '窗口相关':
+          - '绘图窗口基础': 'introduction\basic\wnd_basic.md'
+          - '自定义窗口样式': 'introduction\basic\wnd_style.md'
+          - '自定义程序图标': 'introduction\basic\wnd_icon.md'
+          - '自定义窗口过程函数': 'introduction\basic\wnd_proc.md'
+          - '创建托盘': 'introduction\basic\wnd_tray.md'
+        - '绘图相关':
+          - 'Canvas 画布绘图基础': 'introduction\basic\draw_basic.md'
+          - '使用 Canvas 绑定窗口或 IMAGE 对象': 'introduction\basic\draw_bind.md'
+          - '场景的使用': 'introduction\basic\draw_scene.md'
+          - '使用封装的 GDI+ 接口绘图': 'introduction\basic\draw_gdiplus.md'
+          - '使用基础 EasyX 函数绘制透明图形': 'introduction\basic\draw_tns.md'
+        - '控件相关':
+          - '使用封装的 Win32 控件': 'introduction\basic\ctrl_sys.md'
+        - '常见问题': 'introduction\basic\qa.md'
+        - '程序启动动画': 'introduction\basic\start_animation.md'
+      - '配置 HiEasyX 专题': 
         - 'introduction\configure\index.md'
         - '新项目配置': 'introduction\configure\configure-new.md'
         - '迁移项目配置': 'introduction\configure\configure-transfer.md'
@@ -29,6 +46,7 @@ nav:
         - 'setorigin': 'function\drawing\setorigin.md'
         - 'setcliprgn': 'function\drawing\setcliprgn.md'
         - 'clearcliprgn': 'function\drawing\clearcliprgn.md'
+    - '绘图库简介': 'intro.md'
     - '关于': 
       - '关于网站': 'about\about-website.md'
       - '贡献事项': 'about\contribution.md'

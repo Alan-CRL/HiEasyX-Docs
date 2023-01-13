@@ -116,6 +116,76 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://hiex.netlify.app/introduction/basic/index.html</loc>
+         <lastmod>2023-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/introduction/basic/ctrl_sys.html</loc>
+         <lastmod>2023-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/introduction/basic/draw_basic.html</loc>
+         <lastmod>2023-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/introduction/basic/draw_bind.html</loc>
+         <lastmod>2023-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/introduction/basic/draw_gdiplus.html</loc>
+         <lastmod>2023-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/introduction/basic/draw_scene.html</loc>
+         <lastmod>2023-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/introduction/basic/draw_tns.html</loc>
+         <lastmod>2023-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/introduction/basic/qa.html</loc>
+         <lastmod>2023-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/introduction/basic/start_animation.html</loc>
+         <lastmod>2023-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/introduction/basic/wnd_basic.html</loc>
+         <lastmod>2023-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/introduction/basic/wnd_icon.html</loc>
+         <lastmod>2023-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/introduction/basic/wnd_proc.html</loc>
+         <lastmod>2023-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/introduction/basic/wnd_style.html</loc>
+         <lastmod>2023-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/introduction/basic/wnd_tray.html</loc>
+         <lastmod>2023-01-13</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://hiex.netlify.app/introduction/configure/index.html</loc>
          <lastmod>2023-01-13</lastmod>
          <changefreq>daily</changefreq>

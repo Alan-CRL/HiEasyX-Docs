@@ -10,7 +10,7 @@ search:
 
 1. 下载仓库到本地
 2. 创建一个 Visual Studio C++ 项目，并将项目字符集设置为 `unicode`
-3. 复制仓库项目中的 `./HiEasyX/HiEasyX.h` 文件 和 `./HiEasyX/HiEasyX/` 整个文件夹到您的项目目录下
+3. 下载 [文件](HiEasyX.zip) 并解压，将 `./HiEasyX/HiEasyX.h` 文件 和 `./HiEasyX/HiEasyX/` 整个文件夹到您的项目目录下
 4. 将刚才复制的文件和文件夹加入到您的 Visual Studio 项目中（拖入 Visual Studio 的项目资源管理器即可，或可以手动添加）
 5. 编写代码，编译运行
 

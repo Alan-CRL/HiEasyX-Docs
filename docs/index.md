@@ -6,10 +6,11 @@ search:
 
 # 欢迎查看 HiEasyX 在线文档
 
-在这里您可以深度了解并熟练使用 [HiEasyX](https://github.com/zouhuidong/HiEasyX) 的相关功能，也可以为我们做贡献！
+在这里您可以深度了解并熟练使用 [HiEasyX](intro.md) 的相关功能，也可以为我们做贡献！
 
 !!! note "新手入门"
-    [新手快速攻略](introduction\tutorial.md){ .md-button .md-button--primary }
+    [快速入门](introduction\tutorial.md){ .md-button .md-button--primary }
+    [快速基础](introduction\basic\index.md){ .md-button .md-button--primary }
 
 !!! tip "公告"
     - 您目前看到的是正在开发的全新官方帮助文档，在本网站更多的是教您如何高效使用 HiEasyX 。同时我们也在此帮助文档中集成了 EasyX 的基础用法，让您可以跳过 EasyX 的学习，直接开始学习 HiEasyX。
