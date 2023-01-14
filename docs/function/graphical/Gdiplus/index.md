@@ -4,10 +4,10 @@ comments: true
 
 # 函数说明
 
-此文档及下属文档包含 HiEasyX 所封装的 Gdiplus(GDI+) 系列函数
+此文档及附属文档包含 HiEasyX 所封装的 Gdiplus(GDI+) 系列函数
 
-!!! warning "注意"
-    务必先使用 `Gdiplus_Try_Starup` 启动 Gdiplus(GDI+) 后，才能使用下列绘图函数
+!!! tip "提示"
+    [启动 Gdiplus(GDI+)](Gdiplus_Try_Starup.md) 后，才可以使用下列绘图函数
 
 ## 目录
 
@@ -16,6 +16,7 @@ comments: true
 | [`Gdiplus_Try_Starup`](Gdiplus_Try_Starup.md) | 启动 Gdiplus(GDI+) |
 | [`Gdiplus_Shutdown`](Gdiplus_Shutdown.md) | 关闭 Gdiplus(GDI+) |
 | [`ConvertToGdiplusColor`](ConvertToGdiplusColor.md) | 转换 COLORREF 到 Gdiplus::Color |
+| EasyX 风格封装版本 |
 | [`EasyX_Gdiplus_Line`](EasyX_Gdiplus_Line.md) | 画直线 |
 | [`EasyX_Gdiplus_Polygon`](EasyX_Gdiplus_Polygon.md) | 画多边形 |
 | [`EasyX_Gdiplus_SolidPolygon`](EasyX_Gdiplus_SolidPolygon.md) | 画无边框填充多边形 |
@@ -30,6 +31,7 @@ comments: true
 | [`EasyX_Gdiplus_SolidPie`](EasyX_Gdiplus_SolidPie.md) | 画无边框填充饼状图（传入逆时针角度） |
 | [`EasyX_Gdiplus_FillPie`](EasyX_Gdiplus_FillPie.md) | 画有边框填充饼状图（传入逆时针角度） |
 | [`EasyX_Gdiplus_Arc`](EasyX_Gdiplus_Arc.md) | 画圆弧（传入逆时针角度） |
+| Gdiplus(GDI+) 封装版本 |
 | [`Gdiplus_Line`](Gdiplus_Line.md) | 画直线 |
 | [`Gdiplus_Polygon`](Gdiplus_Polygon.md) | 画多边形 |
 | [`Gdiplus_SolidPolygon`](Gdiplus_SolidPolygon.md) | 画无边框填充多边形 |

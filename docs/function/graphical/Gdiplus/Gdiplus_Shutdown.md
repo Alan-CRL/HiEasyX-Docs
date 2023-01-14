@@ -15,11 +15,6 @@ void HiEasyX::Gdiplus_Shutdown();
 关闭 Gdiplus(GDI+)
 
 ### 说明
-#### 参数
-无
+创建第一个绘图窗口时，Gdiplus(GDI+) 会自动开启。
 
-#### 返回值
-无
-
-#### 示例
-无
+关闭最后一个绘图窗口时，Gdiplus(GDI+) 会自动关闭。
