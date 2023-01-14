@@ -7,7 +7,7 @@ comments: true
 此文档及下属文档包含 HiEasyX 所封装的 Gdiplus(GDI+) 系列函数
 
 !!! warning "注意"
-    务必先使用 `Gdiplus_Try_Starup` 启用 Gdiplus(GDI+) 后，才能使用下列所有函数
+    务必先使用 `Gdiplus_Try_Starup` 启动 Gdiplus(GDI+) 后，才能使用下列绘图函数
 
 ## 目录
 
