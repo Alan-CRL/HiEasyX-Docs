@@ -1,0 +1,37 @@
+---
+comments: true
+---
+
+# Gdiplus_SolidPolygon
+函数 · 位于 HiGdiplus.cpp 中第 78 行
+
+### 函数模型
+
+```cpp
+void HiEasyX::Gdiplus_SolidPolygon(HDC					  hdc,
+								   int					  points_num,
+								   Gdiplus::PointF		  *points,
+								   Gdiplus::Color		  fillcolor,
+								   Gdiplus::SmoothingMode smoothing_mode);
+```
+
+### 作用
+画无边框填充多边形
+
+### 说明
+#### 参数
+- `hdc`：绘图设备 HDC
+
+- `points_num`：多边形定点数
+
+- `*points`：[PointF 类](https://learn.microsoft.com/zh-cn/windows/win32/api/gdiplustypes/nl-gdiplustypes-pointf)，PointF 类封装二维坐标系中的点
+
+- `fillcolor`：填充颜色
+
+- `smoothing_mode`：[Gdiplus::SmoothingMode](https://learn.microsoft.com/zh-cn/windows/win32/api/gdiplusenums/ne-gdiplusenums-smoothingmode) 类
+
+#### 返回值
+无
+
+#### 示例
+无

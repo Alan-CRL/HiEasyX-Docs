@@ -2,202 +2,347 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://hiex.netlify.app/index.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/intro.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/about/about-website.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/about/contribution.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/about/feedback.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/about/history.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/concept/index.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/concept/color.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/concept/coordinate.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/concept/equipment.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/function/index.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/function/drawing/clearcliprgn.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/function/drawing/cleardevice.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/function/drawing/getaspectratio.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/function/drawing/graphdefaults.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/function/drawing/setaspectratio.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/function/drawing/setcliprgn.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/function/drawing/setorigin.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/graphical/index.html</loc>
+         <lastmod>2023-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/graphical/Gdiplus/index.html</loc>
+         <lastmod>2023-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/graphical/Gdiplus/ConvertToGdiplusColor.html</loc>
+         <lastmod>2023-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/graphical/Gdiplus/EasyX_Gdiplus_Arc.html</loc>
+         <lastmod>2023-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/graphical/Gdiplus/EasyX_Gdiplus_Ellipse.html</loc>
+         <lastmod>2023-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/graphical/Gdiplus/EasyX_Gdiplus_FillEllipse.html</loc>
+         <lastmod>2023-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/graphical/Gdiplus/EasyX_Gdiplus_FillPie.html</loc>
+         <lastmod>2023-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/graphical/Gdiplus/EasyX_Gdiplus_FillPolygon.html</loc>
+         <lastmod>2023-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/graphical/Gdiplus/EasyX_Gdiplus_FillRectangle.html</loc>
+         <lastmod>2023-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/graphical/Gdiplus/EasyX_Gdiplus_Line.html</loc>
+         <lastmod>2023-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/graphical/Gdiplus/EasyX_Gdiplus_Pie.html</loc>
+         <lastmod>2023-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/graphical/Gdiplus/EasyX_Gdiplus_Polygon.html</loc>
+         <lastmod>2023-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/graphical/Gdiplus/EasyX_Gdiplus_Rectangle.html</loc>
+         <lastmod>2023-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/graphical/Gdiplus/EasyX_Gdiplus_SolidEllipse.html</loc>
+         <lastmod>2023-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/graphical/Gdiplus/EasyX_Gdiplus_SolidPie.html</loc>
+         <lastmod>2023-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/graphical/Gdiplus/EasyX_Gdiplus_SolidPolygon.html</loc>
+         <lastmod>2023-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/graphical/Gdiplus/EasyX_Gdiplus_SolidRectangle.html</loc>
+         <lastmod>2023-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/graphical/Gdiplus/Gdiplus_Arc.html</loc>
+         <lastmod>2023-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/graphical/Gdiplus/Gdiplus_Ellipse.html</loc>
+         <lastmod>2023-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/graphical/Gdiplus/Gdiplus_Line.html</loc>
+         <lastmod>2023-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/graphical/Gdiplus/Gdiplus_Pie.html</loc>
+         <lastmod>2023-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/graphical/Gdiplus/Gdiplus_Polygon.html</loc>
+         <lastmod>2023-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/graphical/Gdiplus/Gdiplus_Rectangle.html</loc>
+         <lastmod>2023-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/graphical/Gdiplus/Gdiplus_Shutdown.html</loc>
+         <lastmod>2023-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/graphical/Gdiplus/Gdiplus_SolidEllipse.html</loc>
+         <lastmod>2023-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/graphical/Gdiplus/Gdiplus_SolidPie.html</loc>
+         <lastmod>2023-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/graphical/Gdiplus/Gdiplus_SolidPolygon.html</loc>
+         <lastmod>2023-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/graphical/Gdiplus/Gdiplus_SolidRectangle.html</loc>
+         <lastmod>2023-01-14</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://hiex.netlify.app/function/graphical/Gdiplus/Gdiplus_Try_Starup.html</loc>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/function/window/closegraph.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/function/window/closegraph_win32.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/function/window/initgraph.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/function/window/initgraph_win32.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/introduction/tutorial.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/introduction/basic/index.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/introduction/basic/ctrl_sys.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/introduction/basic/draw_basic.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/introduction/basic/draw_bind.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/introduction/basic/draw_gdiplus.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/introduction/basic/draw_scene.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/introduction/basic/draw_tns.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/introduction/basic/qa.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/introduction/basic/start_animation.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/introduction/basic/wnd_basic.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/introduction/basic/wnd_icon.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/introduction/basic/wnd_proc.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/introduction/basic/wnd_style.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/introduction/basic/wnd_tray.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/introduction/configure/index.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/introduction/configure/configure-new.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://hiex.netlify.app/introduction/configure/configure-transfer.html</loc>
-         <lastmod>2023-01-13</lastmod>
+         <lastmod>2023-01-14</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
