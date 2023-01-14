@@ -74,3 +74,5 @@ int main()
 	return 0;
 }
 ```
+
+> 查看并了解更多封装的 Gdiplus 函数可以点击[此处](../../function/graphical/Gdiplus/index.md)

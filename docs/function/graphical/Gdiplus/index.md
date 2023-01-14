@@ -2,7 +2,7 @@
 comments: true
 ---
 
-# 函数说明
+# Gdiplus(GDI+) 函数说明
 
 此文档及附属文档包含 HiEasyX 所封装的 Gdiplus(GDI+) 系列函数
 
